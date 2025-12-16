@@ -4,11 +4,13 @@ FROM node:20-alpine
 # Set working directory
 WORKDIR /app
 
-# Copy package files
+# Copy package files and Prisma schema
 COPY package*.json ./
+COPY prisma ./prisma/
 
-# Install dependencies
+# Install dependencies and generate Prisma client
 RUN npm install
+RUN npx prisma generate
 
 # Copy project files
 COPY . .
