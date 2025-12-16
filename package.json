@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@prisma/client": "latest",
+    "@prisma/client": "7.1.0",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "1.2.2",
     "@radix-ui/react-alert-dialog": "1.1.4",
@@ -66,7 +66,6 @@
     "prisma": "7.1.0",
     "@types/node": "^20.10.5",
     "@tailwindcss/postcss": "^4.1.9",
-    "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8.5",
