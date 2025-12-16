@@ -63,7 +63,8 @@
     "zod": "3.25.76"
   },
   "devDependencies": {
-    "prisma": "latest",
+    "prisma": "7.1.0",
+    "@types/node": "^20.10.5",
     "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
     "@types/react": "^19",

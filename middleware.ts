@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { prisma } from '@/prisma.config'
 
 export async function middleware(request: NextRequest) {
   // Skip middleware for API routes and admin panel
